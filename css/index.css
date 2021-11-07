@@ -1,0 +1,128 @@
+body{
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;    
+    min-height: 100vh;
+    color:rgb(3, 34, 34)
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: darkslategrey;
+    flex-shrink: 0;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+button{   
+    background-color: honeydew; 
+    border: thick solid #72dfcd;
+    border-radius: 1.5em;
+    box-shadow: black 0.5em 0.5em 0.3em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
+button:hover{
+    background-color: #72dfcd; 
+    border-color: honeydew;
+}
+
+button:active{
+    background-color: #12806d; 
+    border-color: honeydew;
+}
+
+.bigText{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    flex-basis: auto;
+    margin: 1em;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback h2{
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column; /*уcтанавливаем направление*/
+}
+
+.contacts li{
+    flex-basis: auto;
+    /*flex-grow: 5;*/
+}
+
+.contacts li label{    
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+
+.hr{    
+    display: flex;
+    justify-content: space-between;/*flex-элементы распределяются вдоль главной оси, 
+    при этом первый элемент прижат к началу оси, а последний - к концу;*/
+    margin-right: 2em;
+}
+
+.hr li{
+    flex-basis: auto;/*базовый размер флекс-элемента по основной оси*/
+    list-style-type: none; /*убираем точки*/
+}
+
+.menu{
+    text-align: center; 
+    background-color: darkslategrey;
+    padding: 0.5em;
+    display: flex;/*растягиваем по ширине*/
+}
+
+.menu li{    
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    flex-basis: auto;/*базовый размер флекс-элемента по основной оси*/
+    flex-grow: 1;/*назначение свободного пространства контейнеру*/
+    list-style-type: none; /*убираем точки*/
+}
+
+.menu li a, footer ul li a{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.mainText{
+
+    white-space: pre-wrap;
+}
+
+
+

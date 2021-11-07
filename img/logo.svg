@@ -1,0 +1,21 @@
+<svg width="250" height="300" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" height="113" width="113" y="56.5" x="69.5" stroke="#000" fill="#2d6862"/>
+  <rect id="svg_4" height="46" width="46" y="90" x="102" stroke="#000" fill="#fff"/>
+  <rect id="svg_5" height="27" width="12" y="23" x="156" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_6" height="27" width="12" y="23" x="120" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_7" height="27" width="12" y="23" x="84" stroke="#000" fill="#5B9BA2"/>
+  <text transform="matrix(1.95291 0 0 1.95291 -335.155 -370.68)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_8" y="332.7793" x="188.61219" fill="#2d6862">МУЛЬТИ</text>
+  <rect id="svg_9" height="27" width="12" y="177" x="156" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_10" height="27" width="12" y="177" x="120" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_11" height="27" width="12" y="177" x="84" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_12" height="12" width="27" y="143" x="190" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_13" height="12" width="27" y="107" x="191" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_14" height="12" width="27" y="71" x="190" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_15" height="12" width="27" y="71" x="36" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_16" height="12" width="27" y="107" x="36" stroke="#000" fill="#5B9BA2"/>
+  <rect id="svg_17" height="13" width="27" y="143" x="36" stroke="#000" fill="#5B9BA2"/>
+ </g>
+</svg>

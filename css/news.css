@@ -1,0 +1,22 @@
+a{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .newsBlock{
+    background-color:white;
+    flex-basis: auto;
+    flex-grow: 1;
+    margin: 0.5em 4em 1em 4em;
+}
+
+.newsBlock .new{
+    background-color: rgb(211, 210, 210);
+    border-color: honeydew;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 1em 1em 1em 1em;
+}
